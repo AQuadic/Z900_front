@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="ad.css" />
+    <link rel="stylesheet" href="status.css" />
+    <link rel="stylesheet" href="filter.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <title>Car Services</title>
+    <style>
+      .no-outline {
+          outline: none !important;
+      }
+      .no-focus-ring:focus {
+          box-shadow: none !important;
+      }
+  </style>
+  </head>
+  <body style="background-color: #F1F1F1;">
+
+    <nav class="navbar ixed-top navbar-expand-lg bg-white">
+      <div class="container">
+        <div class="navbar-toggler2">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <img src="./images/menu.svg" alt="menu">
+          </button>
+          <div style="display: flex;">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="navLink"> الصفحة الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="navLink">اللوحات</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="navLink">بيع رقمك</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div><a class="navbar-brand" href="index.html">
+          <img id="logo" src="./images/nav-logo.svg" alt="Logo" />
+        </a>
+       
+
+        <div class="nav-language">
+          <img src="./images/lang.svg" alt="Language">
+          <p class="mb-0">العربية</p>
+        </div>
+        
+
+        <div
+          class="offcanvas offcanvas-start text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="index.html" class="navLink"> الصفحة الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="navLink">اللوحات</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="navLink">بيع رقمك</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="d-flex align-items-center gap-2"> 
+                  <img src="./images/lang.svg" alt="Language">
+                  <p class="mb-0">العربية</p>  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+
+    <!-- Start Slider -->
+      <div class="swiper mySwiper container mt-[14px]" style="margin-top: 50px;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/Rectangle267.webp" alt="Image">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./images/Rectangle268.webp" alt="Image">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./images/Rectangle267.webp" alt="Image">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./images/Rectangle270.webp" alt="Image">
+                <p class="position-absolute top-0  p-3 text-center text-white fw-bold fs-4">
+                  بيع رقم سيارتك <br> بكل سهولة !!
+                </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./images/Rectangle267.webp" alt="Image">
+            </div>
+            
+            
+        </div>
+      </div>
+    <!-- End Slider -->
+
+    <!-- Start Filter -->
+      <section class="container mt-5 d-flex align-items-center justify-content-center" dir="rtl">
+        <img src="./images/Frame.webp" class="filter-image" alt="Image">
+        <div class="border rounded-start" style=" border-image-source: linear-gradient(269.42deg, #000000 0.47%, #FFFFFF 99.53%); border-image-slice: 1; border-width: 1px; border-style: solid;">
+            <div class="selectCard d-flex flex-wrap justify-content-center align-items-center">
+                <select name="الإمارة" id="الإمارة" class="form-select  text-base  border-secondary no-outline no-focus-ring">
+                    <option value="الإمارة">الإمارة</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <select name="فئة" id="فئة" class="form-select  text-base  border-secondary no-outline no-focus-ring">
+                    <option value="فئة">فئة</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <select name="كود" id="كود" class="form-select  text-base  border-secondary no-outline no-focus-ring">
+                    <option value="كود">كود</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <select name="طول الرقم" id="طول الرقم" class="form-select  text-base  border-secondary no-outline no-focus-ring">
+                    <option value="طول الرقم">طول الرقم</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <input type="text" placeholder="أعلي سعر" class="form-control  text-base border-secondary no-outline no-focus-ring">
+
+                <input type="text" placeholder="أقل سعر" class="form-control  text-base border-secondary no-outline no-focus-ring">
+
+                <input type="text" placeholder="يبدأ ب" class="form-control  text-base border-secondary no-outline no-focus-ring">
+
+                <input type="text" placeholder="ينتهي ب" class="form-control  text-base border-secondary no-outline no-focus-ring">
+
+                <input type="text" placeholder="يتضمن" class="form-control  text-base border-secondary no-outline no-focus-ring">
+            </div>
+        </div>
+      </section>
+    <!-- End Filter -->
+
+    <section class="sectionCars">
+      <div class="container">
+        <div class="cars">
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para" style="background-color: #ffcf60;">
+                <p style="color: #575757;">Contact for price</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+          <div class="cardNew">
+            <div class="carInfo">
+              <img src="./images/b-Group.webp" alt="first_car" class="imgCar" />
+              <div class="card-para">
+                <p>AED 20.000</p>
+            </div>
+
+            </div>
+            <div class="d-flex justify-content-around gap-5">
+              <a href="#" class="cardcall-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="text-white mb-0">اتصال</p>
+                  <img src="./images/call-calling.svg" alt="Call">
+              </a>
+              <a href="#" class="cardwhats-link d-flex align-items-center justify-content-center gap-2">
+                  <p class="mb-0">واتس اب</p>
+                  <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+              </a>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!-- Start Pagination -->
+      <section class="d-flex align-items-center justify-content-center my-3">
+        <div class="PaginationCard  bg-white ">
+            <img src="./images/chevron-right.svg" class="cursor-pointer" alt="Arrow">
+            <p class="active bg d-flex justify-content-center align-items-center">1</p>
+            <div class="bg-secondary"></div>
+            <p class="text-secondary fw-medium" style="font-size: 1.25rem; cursor: pointer;">2</p>
+            <div class="bg-secondary"></div>
+            <p class="text-secondary fw-medium" style="font-size: 1.25rem; cursor: pointer;">3</p>
+            <div class="bg-secondary"></div>
+            <p class="text-secondary fw-medium" style="font-size: 1.25rem; cursor: pointer;">4</p>
+            <div class="bg-secondary"></div>
+            <p class="text-secondary fw-medium" style="font-size: 1.25rem; cursor: pointer;">5</p>
+            <img src="./images/chevron-left.svg" class="cursor-pointer" alt="Arrow">
+        </div>
+      </section>
+  <!-- End Pagination -->
+
+  <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="contact-details">
+            <img src="./images/footerLogo.svg" alt="numera-logo" />
+            <p id="address">دبي، الإمارات العربية المتحدة</p>
+            <p><span> +971 50 774 4336</span></p>
+            <p><span>info@numra.ae</span></p>
+            <div class="social-links">
+              <a href="https://facebook.com"></a>
+              <a href="https://instagram.com"></a>
+              <a href="https://tiktok.com"></a>
+            </div>
+          </div>
+          <div class="quick-links">
+            <h4>روابط مهمه</h4>
+            <ul>
+              <li><a href="">الرئسيه</a></li>
+              <li><a href="">بيع رقمك</a></li>
+              <li><a href="">من نحن</a></li>
+              <li><a href="">تواصل معنا</a></li>
+              <li><a href="">شروط الاستخدام</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="copy_rights">
+          <div class="copy-right">
+            <p>2023 Future Car Care</p>
+            <p>All rights reserved</p>
+          </div>
+          <div class="developed_by">
+            <p>نفذته شركة :</p>
+            <img src="./images/10_trend.svg" alt="developed by 10Trend" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="topBtn">
+      <button id="goButton" href="/">
+        <svg
+          width="18"
+          height="12"
+          viewBox="0 0 18 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.5684 12C17.4125 12 17.8769 11.0186 17.3416 10.3659L9.61445 0.942951C9.21438 0.455079 8.46802 0.455079 8.06795 0.94295L0.340779 10.3659C-0.194491 11.0186 0.269887 12 1.11403 12L16.5684 12Z"
+            fill="#0B1F51"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="loading">
+      <div class="wave">
+        <span style="--c: 1">L</span>
+        <span style="--c: 2">o</span>
+        <span style="--c: 3">a</span>
+        <span style="--c: 4">d</span>
+        <span style="--c: 5">i</span>
+        <span style="--c: 6">n</span>
+        <span style="--c: 7">g</span>
+        <span style="--c: 8">.</span>
+        <span style="--c: 9">.</span>
+        <span style="--c: 10">.</span>
+      </div>
+    </div>
+    <div class="popLogin false ">
+      <div class="content">
+        <h2>أضف   </h2>
+        <h3>لوحاتك الان</h3>
+        <img  src="./images/logo.svg" alt="Nemra" />
+        <p>سجل حساب لتتمكن من إضافة لوحاتك وتتبع حالتها</p>
+
+        <a href="register.html" class="goHome">سجل حساب جديد </a>
+        <a href="login.html" class="goHome btn2">لدي حساب </a>
+      </div>
+    </div>
+    <div class="popLogin false ">
+      <div class="content">
+        <h2>أضف   </h2>
+        <h3>لوحاتك الان</h3>
+        <img  src="./images/logo.svg" alt="Nemra" />
+        <p>سجل حساب لتتمكن من إضافة لوحاتك وتتبع حالتها</p>
+
+        <a href="register.html" class="goHome">سجل حساب جديد </a>
+        <a href="login.html" class="goHome btn2">لدي حساب </a>
+      </div>
+    </div>
+    <div class=" successBox successBox2 false">
+      <div class="content">
+       <img src="./images/shap.png" alt="">
+          
+        <h2>تفعيل الحساب</h2>
+        <p>اختر الوسيلة المناسبة لك لتحقق من رقمك</p>
+        <div class="boxBtnPop">
+          <a href="" class="link1">واتساب</a>
+          <a href="" class="link2">SMS</a>
+
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      // Function to scroll to the top of the page
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Optional: Smooth scrolling animation
+        });
+      }
+
+      // Add click event listener to the button
+      document
+        .getElementById("goButton")
+        .addEventListener("click", scrollToTop);
+    </script>
+    <script>
+      document
+        .getElementById("toggleBtn")
+        .addEventListener("click", function () {
+          var section = document.querySelector(".partsFillter");
+
+          if (section.classList.contains("showMorePart")) {
+            section.classList.remove("showMorePart");
+          } else {
+            section.classList.add("showMorePart");
+          }
+        });
+    </script>
+    <script>
+      document.getElementById("menu").addEventListener("click", function () {
+        var section = document.querySelector(".menu2");
+        section.classList.toggle("collapsed");
+      });
+      document.getElementById("menu").addEventListener("click", function () {
+        var section = document.querySelector(".menuParts");
+        if (section.classList.contains("none")) {
+          section.classList.remove("none");
+        } else {
+          section.classList.add("none");
+        }
+      });
+    </script>
+    <!-- Initialize Swiper -->
+    <!-- <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script> -->
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                loop: true,
+                slidesPerView: "auto",
+                initialSlide: 2,
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 100,
+                    depth: 150,
+                    modifier: 2.5,
+                },
+                autoplay: {
+                delay: 2000,
+                disableOnInteraction: false, 
+            },
+                breakpoints: {
+                    300: {
+                        slidesPerView: 1.1, 
+                    },
+                    640: {
+                        slidesPerView: 3, 
+                    },
+                    641: {
+                        slidesPerView:1.9,
+                    },
+                    900: {
+                        slidesPerView:1.4,
+                    },
+                    1400: {
+                      slidesPerView:2.4,
+                    }
+                },
+            });
+        </script>
+  </body>
+</html>
