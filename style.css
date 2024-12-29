@@ -628,7 +628,7 @@ img.imgFillter {
 .form-control {
   appearance: none;
   min-height: 40px;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25); */
 }
 .contactUs form option {
   font-family: expofontBold;
@@ -869,7 +869,7 @@ select option {
 }
 
 .cars .cardNew .cardcall-link {
-  width: 106px;
+  width: 126px;
   height: 38px;
   border-radius: 4px;
   background-color: #3563e9;
@@ -880,7 +880,7 @@ select option {
   line-height: 19.2px;
 }
 .cars .cardNew .cardwhats-link {
-  width: 106px;
+  width: 126px;
   height: 38px;
   border-radius: 4px;
   background-color: rgba(96, 214, 105, 0.12);
@@ -949,7 +949,7 @@ select option {
 .cars .cardNew .carInfo .card-para p {
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 22.5px;
   display: flex;
   align-items: center;
@@ -1231,11 +1231,9 @@ select option {
   margin: 20px 0px;
   padding: 0px 12px;
 }
-.page h1 {
+.page h2 {
   font-size: 26px;
   font-family: expofontbold;
-  text-align: start;
-  direction: rtl;
 }
 .page p {
   font-size: 18px;
@@ -1833,7 +1831,7 @@ select option {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ebaf29;
+  background-color: #3563e9;
   width: 46px;
   height: 46px;
   padding: 4px;
@@ -1842,7 +1840,7 @@ select option {
   transition: 0.5s;
 }
 .topBtn button:hover {
-  box-shadow: 4px 7px 22px #e6ae08;
+  box-shadow: 4px 7px 22px #3563e9;
 }
 .topBtn button svg {
 }
@@ -2396,6 +2394,34 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 .filter-image {
   height: 230px;
 }
+.filterboard {
+  width: 40px;
+  height: 232px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+html[dir="rtl"] .filterboard {
+  border-radius: 0 10px 10px 0;
+}
+
+html[dir="ltr"] .filterboard {
+  border-radius: 10px 0 0 10px;
+}
+
+.filterboard p {
+  color: white;
+  writing-mode: vertical-rl;
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
 .selectCard .form-select,
 .selectCard .form-control {
   width: 209px;
@@ -2425,4 +2451,15 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
   .selectCard .form-control {
     width: 90px;
   }
+}
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+
+html[dir="rtl"] .transition-transform {
+  transform: scaleX(1);
+}
+
+html[dir="ltr"] .transition-transform {
+  transform: scaleX(-1);
 }
