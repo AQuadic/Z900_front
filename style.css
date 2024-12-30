@@ -894,6 +894,7 @@ select option {
 
 .cars .cardNew .carInfo .imgCar {
   width: 290px;
+  height: 75px;
   border-radius: 4px;
   display: block;
   margin: auto;

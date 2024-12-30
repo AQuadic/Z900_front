@@ -28,6 +28,7 @@ footer .footer-container {
 footer .footer-container .social-links {
   margin-top: 18px;
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 footer .footer-container .social-links a:nth-child(1)::before,
@@ -45,10 +46,31 @@ footer .footer-container .social-links a:nth-child(2)::before {
 footer .footer-container .social-links a:nth-child(3)::before {
   content: url("./images/ic_baseline-tiktok.svg");
 }
+footer .footer-container .social-links a:nth-child(4) img {
+  width: 24px;
+  height: 28.5px;
+}
+footer .footer-container .social-links a:nth-child(5) img {
+  width: 40px;
+  height: 40.5px;
+}
+footer .footer-container .social-links a:nth-child(6) img {
+  width: 30px;
+  height: 30.5px;
+}
 
 footer .footer-container .contact-details {
   flex: 1;
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-container .contact-details img {
+  width: 83px;
+  height: 65px;
+}
+footer .footer-container .contact-details a {
+  text-decoration: none;
+  color: white;
 }
 footer .footer-container #address {
   margin-block: 10px;
