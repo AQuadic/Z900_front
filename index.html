@@ -43,6 +43,24 @@
       .swiper-slide-shadow-top {
         display: none !important;
       }
+    .swiper-pagination {
+      position: absolute;
+      bottom: 10px !important;
+      left: 50% !important;
+      transform: translateX(-50%);
+    }
+
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #3563e9;
+    transform: scale(1.2); 
+  }
   </style>
   </head>
   <body style="background-color: #F1F1F1;">
@@ -197,9 +215,6 @@
   
   
       </div>
-  
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
       <div class="swiper-pagination"></div>
     </div>
     <!-- Start Filter -->
