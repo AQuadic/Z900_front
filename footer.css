@@ -21,7 +21,7 @@ footer p span {
 footer .footer-container {
   gap: 146px;
   display: flex;
-
+  flex-direction:row
   padding: 20px;
 }
 
@@ -123,5 +123,6 @@ footer .developed_by {
   footer .footer-container {
     gap: 20px;
     justify-content: space-between;
+    flex-direction:column;
   }
 }
