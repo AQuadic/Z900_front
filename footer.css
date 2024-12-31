@@ -37,24 +37,24 @@ footer .footer-container .social-links a:nth-child(3)::before {
   position: relative;
 }
 
-footer .footer-container .social-links a:nth-child(1)::before {
+footer .footer-container .social-links .footer-facebook {
   content: url("./images/uil_facebook.svg");
 }
-footer .footer-container .social-links a:nth-child(2)::before {
+footer .footer-container .social-links .footer-insta {
   content: url("./images/uil_instagram.svg");
 }
-footer .footer-container .social-links a:nth-child(3)::before {
+footer .footer-container .social-links .footer-tiktok {
   content: url("./images/ic_baseline-tiktok.svg");
 }
-footer .footer-container .social-links a:nth-child(4) img {
+footer .footer-container .social-links .footer-snap img {
   width: 24px;
   height: 28.5px;
 }
-footer .footer-container .social-links a:nth-child(5) img {
+footer .footer-container .social-links .footer-linkedin img {
   width: 40px;
   height: 40.5px;
 }
-footer .footer-container .social-links a:nth-child(6) img {
+footer .footer-container .social-links .footer-youtube img {
   width: 30px;
   height: 30.5px;
 }
