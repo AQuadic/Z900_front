@@ -903,11 +903,12 @@ select option {
 }
 
 .cars .cardNew .carInfo .imgCar {
-  width: 290px;
+  width: auto;
   height: 75px;
   border-radius: 4px;
   display: block;
   margin: auto;
+  object-fit: contain;
 }
 .cars .cardNew .carInfo .svgNum {
   position: absolute;
