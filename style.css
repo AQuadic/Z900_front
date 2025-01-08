@@ -855,7 +855,6 @@ select option {
 }
 /*cars*/
 .cars {
-  direction: rtl;
   display: flex;
   gap: 16px;
   justify-content: center;
