@@ -2,28 +2,28 @@
 
 footer p {
   margin: 3px 0;
-  font-family: expofont;
+  font-family: IBM Plex Sans Arabic;
 }
 footer {
   width: 100%;
   height: max-content;
   background-color: black;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: IBM Plex Sans Arabic;
   font-weight: 200;
   font-size: 12px;
   font-style: normal;
   max-width: 100%;
-  padding:20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 footer p span {
   direction: ltr;
 }
 footer .footer-container {
-  gap: 146px;
+  /* gap: 146px; */
   display: flex;
-  flex-direction:row
-  padding: 20px;
+  flex-direction: row;
+  /* padding: 20px; */
 }
 
 footer .footer-container .social-links {
@@ -75,14 +75,14 @@ footer .footer-container .contact-details a {
 }
 footer .footer-container #address {
   margin-block: 10px;
-  font-family: expofont;
+  font-family: IBM Plex Sans Arabic;
 }
 footer .quick-links a {
   display: block;
   margin-block: 6px;
   text-decoration: none;
   color: white;
-  font-family: expofont;
+  font-family: IBM Plex Sans Arabic;
 }
 footer .quick-links {
   width: 116px;
@@ -91,7 +91,7 @@ footer .quick-links {
 }
 footer .quick-links h4 {
   width: 200px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans ArabicBold;
   font-size: 20px;
 }
 
@@ -115,15 +115,15 @@ footer .developed_by {
   align-items: center;
 }
 .developed_by p {
-  font-family: expofont;
+  font-family: IBM Plex Sans Arabic;
   text-align: end;
   margin: 0;
   width: 60px;
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   footer .footer-container {
     gap: 20px;
     justify-content: space-between;
     flex-direction:column;
   }
-}
+} */

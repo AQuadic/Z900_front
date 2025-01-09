@@ -63,7 +63,7 @@
   color: #6c6d6f;
   text-decoration: none;
   text-align: start;
-  font-family: expofont;
+  font-family: IBM Plex Sans Arabic;
   font-weight: 600;
 }
 .navbar .menuParts.none {
@@ -167,7 +167,7 @@
   color: #6c6d6f;
   text-decoration: none;
   text-align: start;
-  font-family: expofont;
+  font-family: IBM Plex Sans Arabic;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -175,9 +175,9 @@
   color: #e5ae08;
 }
 .navbar ul li a.btnPage1 {
-  color: #e5ae08;
+  color: white;
   padding: 4px 8px;
-  background-color: #192540de;
+  background: rgba(25, 37, 64, 1);
 }
 .nav-language {
   display: flex;
@@ -188,7 +188,7 @@
 .nav-language p {
   font-size: 16px;
   color: #6c6d6f;
-  font-family: expofont;
+  font-family: IBM Plex Sans Arabic;
   font-weight: 600;
 }
 @media (max-width: 992px) {
