@@ -26,11 +26,16 @@ footer .footer-container {
   /* padding: 20px; */
 }
 
+@media (min-width: 600px) {
+  footer .footer-container .social-links {
+    gap: 20px;
+  }
+}
+
 footer .footer-container .social-links {
   margin-top: 18px;
   display: flex;
   align-items: center;
-  gap: 20px;
 }
 footer .footer-container .social-links a:nth-child(1)::before,
 footer .footer-container .social-links a:nth-child(2)::before,
@@ -90,7 +95,7 @@ footer .quick-links {
   min-width: auto;
 }
 footer .quick-links h4 {
-  width: 200px;
+  /* width: 200px; */
   font-family: IBM Plex Sans ArabicBold;
   font-size: 20px;
 }
