@@ -29,8 +29,15 @@ body {
 }
 
 @font-face {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   src: url("./ExpoArabic-Bold.otf");
+}
+
+@media (min-width: 600px) {
+  .swiper-carousel img {
+    width: 520px !important;
+    height: 380px !important;
+  }
 }
 
 .card {
@@ -77,7 +84,7 @@ body {
 
 .card .car-details .price .currency {
   margin: 0;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-weight: 900;
   font-size: 22px;
 }
@@ -246,7 +253,7 @@ body {
 }
 .add_carnum .headline,
 #questions > .title {
-  font-family: expofontbold;
+  font-family: IBM Plex Sans Arabic;
   color: white;
   font-size: 24px;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.616);
@@ -411,7 +418,7 @@ img.imgFillter {
 }
 .fillter .content .part input {
   color: #192540;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 14px;
   max-width: 100%;
   border: none;
@@ -497,7 +504,7 @@ img.imgFillter {
   justify-content: center;
 }
 .fillter .content .part1 h4 {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 15px;
 }
 .fillter .content .part ul {
@@ -546,7 +553,7 @@ img.imgFillter {
 .fillter .content .showMore {
   color: #164fd2;
   font-size: 15px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   background-color: transparent;
   border: none;
   margin: 16px 0px 0px;
@@ -582,7 +589,7 @@ img.imgFillter {
 }
 .contactUs h1 {
   font-size: 24px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   margin-bottom: 26px;
   color: rgba(25, 37, 64, 1);
 }
@@ -603,10 +610,10 @@ img.imgFillter {
 }
 .contactUs form label {
   font-size: 16px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .contactUs form input {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 20px;
   height: 40px;
   width: 100%;
@@ -616,7 +623,7 @@ img.imgFillter {
   padding: 8px 10px;
 }
 .contactUs form textarea {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 20px;
   height: 80px;
   width: 100%;
@@ -641,7 +648,7 @@ img.imgFillter {
   /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25); */
 }
 .contactUs form option {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
 }
 .sel {
@@ -667,7 +674,7 @@ html[dir="ltr"] .sel::before {
   right: 16px;
 }
 .contactUs select {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
 }
 select::selection {
@@ -675,7 +682,7 @@ select::selection {
   background: yellow;
 }
 select:focus {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
 }
 select option {
@@ -688,7 +695,7 @@ select option {
   gap: 6px;
 }
 .contactUs .price h2 {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   margin: 0;
 }
@@ -705,7 +712,7 @@ select option {
   min-width: 108px;
 }
 .contactUs .codeCountry p {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 20px;
 }
 .contactUs .codeCountry img {
@@ -768,7 +775,7 @@ select option {
 }
 .contactUs .btnSend p {
   font-size: 20px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   margin: 0;
   color: white;
 }
@@ -802,7 +809,7 @@ select option {
 .nextContent button p {
   color: rgba(25, 37, 64, 1);
   font-size: 16px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   margin: 0;
 }
 .nextContent button p img {
@@ -886,6 +893,7 @@ select option {
   height: 38px;
   border-radius: 4px;
   background-color: #3563e9;
+  gap: 8px;
 }
 .cars .cardNew .cardcall-link p {
   font-size: 12px;
@@ -899,6 +907,7 @@ select option {
   border-radius: 4px;
   background-color: rgba(96, 214, 105, 0.12);
   text-decoration: none;
+  gap: 8px;
 }
 .cars .cardNew .cardwhats-link p {
   color: #60d669;
@@ -950,7 +959,7 @@ select option {
   margin: 0;
   text-align: center;
   color: rgba(25, 37, 64, 1);
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 
 .cars .cardNew .carInfo .card-para {
@@ -1001,7 +1010,7 @@ select option {
   text-wrap: nowrap;
 }
 .cars .cardNew .carDetails .part .boldSpan {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .cars .cardNew .carDetails .part .numCar {
   font-family: Montserrat;
@@ -1015,7 +1024,7 @@ select option {
   flex: 1;
 }
 .cars .cardNew .carDetails .price .currency {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 20px;
 }
 .cars .cardNew .carDetails .star {
@@ -1075,7 +1084,7 @@ select option {
 .cars .cardNew .carDetails .star {
   display: none;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .cars {
     gap: 14px 10px;
   }
@@ -1159,6 +1168,35 @@ select option {
     height: 14px;
   }
 }
+@media (max-width: 500px) {
+  .cars .cardNew {
+    width: 156px;
+    flex: 1;
+    padding: 2px 2px 4px;
+    border-radius: 8px;
+  }
+  .cars .cardNew .carInfo .imgCar {
+    width: 160px;
+  }
+  .cars .cardNew .carInfo .card-para {
+    width: 165px;
+    margin-top: 5px;
+  }
+  .cars .cardNew .cardcall-link {
+    width: 70px;
+    gap: 2px;
+  }
+  .cars .cardNew .cardcall-link p {
+    font-size: 10px;
+  }
+  .cars .cardNew .cardwhats-link {
+    width: 70px;
+    gap: 2px;
+  }
+  .cars .cardNew .cardwhats-link p {
+    font-size: 10px;
+  }
+}
 @media (max-width: 440px) {
   .contactCar a p {
     font-size: 8px;
@@ -1220,7 +1258,7 @@ select option {
 .successBox .content h2 {
   font-size: 28px;
   font-weight: 800;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 
   text-align: center;
   margin: 0;
@@ -1249,7 +1287,7 @@ select option {
 }
 .page h2 {
   font-size: 26px;
-  font-family: expofontbold;
+  font-family: IBM Plex Sans Arabic;
 }
 .page p {
   font-size: 18px;
@@ -1317,7 +1355,7 @@ select option {
   margin: 0;
   text-align: center;
   color: rgba(25, 37, 64, 1);
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .carsNew .cardNew .carInfo .featuresCar .pNew {
   background: rgba(235, 175, 41, 1);
@@ -1347,7 +1385,7 @@ select option {
   font-size: 12px;
 }
 .carsNew .cardNew .carDetails .part .boldSpan {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .carsNew .cardNew .carDetails .part .numCar {
   font-family: Montserrat;
@@ -1361,7 +1399,7 @@ select option {
   flex: 1;
 }
 .carsNew .cardNew .carDetails .price .currency {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 17px;
   height: 18px;
 }
@@ -1421,7 +1459,7 @@ select option {
   font-size: 24px;
   margin-bottom: 4px;
   text-align: center;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .about h2 {
   color: #666666;
@@ -1961,7 +1999,7 @@ select option {
   max-width: 100%;
 }
 .empty .title {
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 24px;
   color: #192540;
   text-align: center;
@@ -1981,7 +2019,7 @@ select option {
 }
 .dateNumber .content .date .craete p {
   font-size: 16px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .dateNumber .content .date .sattecard {
 }
@@ -1989,7 +2027,7 @@ select option {
   background-color: #ebaf29;
 
   border-radius: 4px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 12px;
   width: 54px;
   height: 20px;
@@ -2083,7 +2121,7 @@ select option {
 }
 .pageMyArts .infoUser h2 {
   font-size: 18px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -2113,7 +2151,7 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 
 .pageMyArts h4 {
   font-size: 18px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 
   margin-bottom: 10px;
 }
@@ -2143,7 +2181,7 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 }
 .userInfo .detailsUser h4 {
   font-size: 12px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   margin: 0;
 }
 .dateNumber .contactCar {
@@ -2157,7 +2195,7 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 }
 .dateNumber .contactCar a p {
   font-size: 16px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .dateNumber .contactCar a img {
   width: 20px;
@@ -2181,7 +2219,7 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 .sold p {
   color: white;
   font-size: 10px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   margin: 0;
 }
 .sold2 {
@@ -2234,7 +2272,7 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 .popLogin .content h3 {
   font-size: 44px;
   font-weight: 800;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   line-height: 120%;
   text-align: center;
   margin-bottom: 12px;
@@ -2255,7 +2293,7 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
   border-radius: 4px;
   color: white;
   font-size: 16px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   text-decoration: none;
   display: block;
   margin: 8px auto;
@@ -2277,12 +2315,12 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 .successBox .boxBtnPop .link1 {
   max-width: 164px;
   height: 56px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .successBox .boxBtnPop .link2 {
   max-width: 164px;
   height: 56px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   color: #192540;
   border: 1px solid;
   background-color: transparent;
@@ -2337,7 +2375,7 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 .activeAcount .content h2 {
   font-size: 28px;
   font-weight: 800;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 
   text-align: center;
   margin: 0;
@@ -2372,12 +2410,12 @@ html[dir="ltr"] .pageMyArts .infoUser h3 {
 .activeAcount .boxBtnPop .link1 {
   max-width: 164px;
   height: 56px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
 }
 .activeAcount .boxBtnPop .link2 {
   max-width: 164px;
   height: 56px;
-  font-family: expofontBold;
+  font-family: IBM Plex Sans Arabic;
   color: #192540;
   border: 1px solid;
   background-color: white;
