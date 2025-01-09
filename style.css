@@ -652,7 +652,6 @@ img.imgFillter {
   content: "";
   position: absolute;
   top: 50%;
-  left: 16px;
   transform: translateY(-50%);
   background-image: url("./images/arrow.png");
   background-repeat: no-repeat;
@@ -660,6 +659,12 @@ img.imgFillter {
   background-size: 12px;
   width: 12px;
   height: 6px;
+}
+html[dir="rtl"] .sel::before {
+  left: 16px;
+}
+html[dir="ltr"] .sel::before {
+  right: 16px;
 }
 .contactUs select {
   font-family: expofontBold;
@@ -886,6 +891,7 @@ select option {
   font-size: 12px;
   font-weight: 600;
   line-height: 19.2px;
+  font-family: "IBM Plex Sans Arabic";
 }
 .cars .cardNew .cardwhats-link {
   width: 126px;
