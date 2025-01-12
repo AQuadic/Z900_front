@@ -177,7 +177,7 @@
 .navbar ul li a.btnPage1 {
   color: white;
   padding: 4px 8px;
-  background: rgba(25, 37, 64, 1);
+  background: black;
 }
 .nav-language {
   display: flex;

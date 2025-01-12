@@ -766,7 +766,7 @@ select option {
   box-shadow: none;
 }
 .contactUs .btnSend {
-  background: rgba(25, 37, 64, 1);
+  background: black;
   display: flex;
   align-items: center;
   justify-content: center;
