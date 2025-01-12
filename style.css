@@ -33,13 +33,16 @@ body {
   src: url("./ExpoArabic-Bold.otf");
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .swiper-carousel img {
     width: 520px !important;
     height: 380px !important;
   }
+} */
+.swiper-wrapper .swiper-slide {
+  width: 341px;
+  height: 186px;
 }
-
 .card {
   margin: 15px 0 20px;
   width: 380px;
