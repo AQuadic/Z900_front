@@ -4696,7 +4696,6 @@ fieldset:disabled .btn {
   padding: 1rem 1.25rem;
   font-size: 1rem;
   color: #212529;
-  text-align: left;
   background-color: #fff;
   border: 0;
   border-radius: 0;
@@ -4704,6 +4703,12 @@ fieldset:disabled .btn {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     border-radius 0.15s ease;
+}
+html[dir="ltr"] .accordion-button {
+  text-align: left;
+}
+html[dir="rtl"] .accordion-button {
+  text-align: right;
 }
 @media (prefers-reduced-motion: reduce) {
   .accordion-button {
@@ -4721,10 +4726,10 @@ fieldset:disabled .btn {
   position: absolute;
 }
 html[dir="rtl"] .accordion-button:not(.collapsed)::after {
-  left: 30px;
+  left: 10px;
 }
 html[dir="ltr"] .accordion-button:not(.collapsed)::after {
-  right: 30px;
+  right: 10px;
 }
 .accordion-button::after {
   flex-shrink: 0;
@@ -4739,10 +4744,10 @@ html[dir="ltr"] .accordion-button:not(.collapsed)::after {
   position: absolute;
 }
 html[dir="rtl"] .accordion-button::after {
-  left: 30px;
+  left: 10px;
 }
 html[dir="ltr"] .accordion-button::after {
-  right: 30px;
+  right: 10px;
 }
 @media (prefers-reduced-motion: reduce) {
   .accordion-button::after {
