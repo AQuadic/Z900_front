@@ -2,26 +2,26 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "RobotoMd";
+  font-family: "IBM Plex Sans Arabic";
 }
 body {
   background: white;
   overflow-x: hidden;
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: IBM Plex Sans Arabic;
   src: url("../fonts/Roboto-Regular.ttf");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: "RobotoMd";
+  font-family: "IBM Plex Sans Arabic";
   src: url("../fonts/Roboto-Medium.ttf");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "RobotoBold";
+  font-family: "IBM Plex Sans Arabic";
   src: url("../fonts/Roboto-Bold.ttf");
   font-weight: 700;
   font-style: normal;
@@ -58,20 +58,20 @@ body {
   font-style: normal;
 }
 input::placeholder {
-  font-family: "Roboto";
+  font-family: IBM Plex Sans Arabic;
 }
 :root {
   --main_color: #2563eb;
 }
 h1 {
-  font-family: "RobotoBold";
+  font-family: "IBM Plex Sans Arabic";
 }
 .m60 {
   margin-bottom: 60px;
 }
 p {
   margin: 0;
-  font-family: "Roboto";
+  font-family: IBM Plex Sans Arabic;
 }
 ul {
   list-style: none;
@@ -199,7 +199,7 @@ html::-webkit-scrollbar-track {
 }
 .navbar-nav .nav-link {
   color: #949494;
-  font-family: RobotoMd;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -265,7 +265,7 @@ html::-webkit-scrollbar-track {
 .navbar a.logBtn {
   padding: 12px 8px;
   color: #949494;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -282,7 +282,7 @@ html::-webkit-scrollbar-track {
   justify-content: center;
   width: 132px;
   color: #fff;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -354,7 +354,7 @@ html::-webkit-scrollbar-track {
 }
 .head .content .part1 p {
   color: #0f172a;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -364,7 +364,7 @@ html::-webkit-scrollbar-track {
 
 .head .headtitle {
   color: #0f172a;
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
@@ -384,7 +384,7 @@ html::-webkit-scrollbar-track {
   justify-content: center;
   max-width: 226px;
   color: #fff;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -484,7 +484,7 @@ html::-webkit-scrollbar-track {
 .platforms h2 {
   text-align: center;
   margin: auto;
-  font-family: "Roboto";
+  font-family: IBM Plex Sans Arabic;
   max-width: 362px;
   font-size: 36px;
   font-style: normal;
@@ -637,7 +637,7 @@ html::-webkit-scrollbar-track {
 .features .content .part h2 {
   color: #0f172a;
   text-align: center;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -646,7 +646,7 @@ html::-webkit-scrollbar-track {
 .features .content .part p {
   color: #0f172a;
   text-align: center;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -687,7 +687,7 @@ html::-webkit-scrollbar-track {
 .partners .content h2 {
   color: #0f172a;
   text-align: center;
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
@@ -753,7 +753,7 @@ html::-webkit-scrollbar-track {
   color: #fff;
 }
 .workflow .content .part h2 {
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
@@ -761,7 +761,7 @@ html::-webkit-scrollbar-track {
   margin-bottom: 24px;
 }
 .workflow .content .part h3 {
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -775,7 +775,7 @@ html::-webkit-scrollbar-track {
 }
 .workflow .content .part .linkWorkflow p {
   color: #fff;
-  font-family: RobotoMd;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -813,7 +813,7 @@ html::-webkit-scrollbar-track {
 .platforms2 .content h2 {
   color: #000;
   text-align: center;
-  font-family: "Roboto";
+  font-family: IBM Plex Sans Arabic;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -864,7 +864,7 @@ html::-webkit-scrollbar-track {
 .about .content h1 {
   color: #e0e0e0;
   text-align: center;
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 72px;
   font-style: normal;
   font-weight: 800;
@@ -874,7 +874,7 @@ html::-webkit-scrollbar-track {
 .about .content p {
   color: #cbd5e1;
   text-align: center;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -955,7 +955,7 @@ html::-webkit-scrollbar-track {
 }
 .coolFeatures .content .part2 h2 {
   color: #0f172a;
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
@@ -964,7 +964,7 @@ html::-webkit-scrollbar-track {
 .coolFeatures .content .part2 h2 span {
   position: relative;
   color: #0f172a;
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
@@ -977,7 +977,7 @@ html::-webkit-scrollbar-track {
 
 .coolFeatures .content .part2 p {
   color: #0f172a;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -992,7 +992,7 @@ html::-webkit-scrollbar-track {
 }
 .coolFeatures .content .part2 a p {
   color: #2563eb;
-  font-family: RobotoMd;
+  font-family: IBM Plex Sans Arabic;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -1385,7 +1385,7 @@ footer .content .parts .part {
 }
 footer .content .parts .part h2 {
   color: #fff;
-  font-family: RobotoMd;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1399,7 +1399,7 @@ footer .content .parts .part ul li {
 }
 footer .content .parts .part ul li a {
   color: white;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1411,7 +1411,7 @@ footer .content .parts .part ul li a span {
   padding: 2px 4px;
   color: #6b21a8;
   margin: 0px 4px;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1428,7 +1428,7 @@ footer .content .copy .part1 {
 }
 footer .content .copy .part1 p {
   color: #e2e8f0;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1446,7 +1446,7 @@ footer .content .copy .part2 ul li {
 }
 footer .content .copy .part2 ul li .copyLink {
   color: #e2e8f0;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1463,7 +1463,7 @@ footer .content .copy .part2 ul li .copyLink img {
 }
 footer .content .copy .part2 ul li .copyLink p {
   color: #e2e8f0;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1513,7 +1513,7 @@ footer .content .copy .part2 ul li .copyLink p {
 .matters .content h2 {
   color: #0f172a;
   text-align: center;
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
@@ -1523,7 +1523,7 @@ footer .content .copy .part2 ul li .copyLink p {
 .matters .content p {
   color: #0f172a;
   text-align: center;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1559,7 +1559,7 @@ footer .content .copy .part2 ul li .copyLink p {
 }
 .matters .content .parts .part2 button {
   color: #0f172a;
-  font-family: RobotoMd;
+  font-family: IBM Plex Sans Arabic;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -1582,7 +1582,7 @@ footer .content .copy .part2 ul li .copyLink p {
 }
 .matters .content .parts .part2 h3 {
   color: #0f172a;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1604,7 +1604,7 @@ footer .content .copy .part2 ul li .copyLink p {
   background: #2563eb;
   padding: 20px 24px;
   color: #fff;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -1688,7 +1688,7 @@ footer .content .copy .part2 ul li .copyLink p {
 }
 .improve .content .part1 h2 {
   color: #0f172a;
-  font-family: RobotoBold;
+  font-family: IBM Plex Sans Arabic;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
@@ -1708,7 +1708,7 @@ footer .content .copy .part2 ul li .copyLink p {
   border: 1px solid #cbd5e1;
   background: #fff;
   color: #0f172a;
-  font-family: RobotoMd;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1728,7 +1728,7 @@ footer .content .copy .part2 ul li .copyLink p {
 }
 .improve .content .part1 p {
   color: #475569;
-  font-family: Roboto;
+  font-family: IBM Plex Sans Arabic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1741,7 +1741,7 @@ footer .content .copy .part2 ul li .copyLink p {
 }
 .improve .content .part1 a span {
   color: #2563eb;
-  font-family: RobotoMd;
+  font-family: IBM Plex Sans Arabic;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

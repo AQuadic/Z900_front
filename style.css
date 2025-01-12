@@ -96,7 +96,7 @@ body {
 .card .car-details .num,
 .number-plate .code,
 .number-plate .num {
-  font-family: BebasKai;
+  font-family: IBM Plex Sans Arabic;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -1016,7 +1016,7 @@ select option {
   font-family: IBM Plex Sans Arabic;
 }
 .cars .cardNew .carDetails .part .numCar {
-  font-family: Montserrat;
+  font-family: IBM Plex Sans Arabic;
   letter-spacing: 3px;
   font-weight: 700;
 }
