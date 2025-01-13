@@ -923,7 +923,7 @@ select option {
 }
 
 .cars .cardNew .carInfo .imgCar {
-  width: auto;
+  width: 250px;
   height: 70px;
   border-radius: 4px;
   display: block;
