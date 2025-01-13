@@ -39,9 +39,12 @@ body {
     height: 380px !important;
   }
 } */
-.swiper-wrapper .swiper-slide {
-  width: 341px;
-  height: 186px;
+
+@media screen and (max-width: 768px) {
+  .swiper-wrapper .swiper-slide {
+    width: 341px;
+    height: 186px;
+  }
 }
 .card {
   margin: 15px 0 20px;
