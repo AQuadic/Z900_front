@@ -922,6 +922,20 @@ select option {
   text-decoration: none;
   gap: 8px;
 }
+.cars .cardNew .cardwhats-link-one {
+  width: 250px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: rgba(96, 214, 105, 0.12);
+  text-decoration: none;
+  gap: 8px;
+}
+.cars .cardNew .cardwhats-link-one p {
+  color: #60d669;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19.2px;
+}
 .cars .cardNew .cardwhats-link p {
   color: #60d669;
   font-size: 12px;
@@ -1124,6 +1138,9 @@ select option {
     .cars .cardNew .cardcall-link-one {
       width: 170px;
     }
+    .cars .cardNew .cardwhats-link-one {
+      width: 170px;
+    }
     .cars .cardNew .cardwhats-link {
       width: 87px;
     }
@@ -1203,6 +1220,9 @@ select option {
     gap: 2px;
   }
   .cars .cardNew .cardcall-link-one {
+    width: 150px;
+  }
+  .cars .cardNew .cardwhats-link-one {
     width: 150px;
   }
   .cars .cardNew .cardcall-link p {
