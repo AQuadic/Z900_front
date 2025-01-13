@@ -908,6 +908,12 @@ select option {
   background-color: #3563e9;
   gap: 8px;
 }
+.cars .cardNew .cardcall-link-one p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19.2px;
+  font-family: "IBM Plex Sans Arabic";
+}
 .cars .cardNew .cardcall-link p {
   font-size: 12px;
   font-weight: 600;
