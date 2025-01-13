@@ -901,6 +901,13 @@ select option {
   background-color: #3563e9;
   gap: 8px;
 }
+.cars .cardNew .cardcall-link-one {
+  width: 250px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #3563e9;
+  gap: 8px;
+}
 .cars .cardNew .cardcall-link p {
   font-size: 12px;
   font-weight: 600;
@@ -1114,6 +1121,9 @@ select option {
     .cars .cardNew .cardcall-link {
       width: 87px;
     }
+    .cars .cardNew .cardcall-link-one {
+      width: 170px;
+    }
     .cars .cardNew .cardwhats-link {
       width: 87px;
     }
@@ -1191,6 +1201,9 @@ select option {
   .cars .cardNew .cardcall-link {
     width: 70px;
     gap: 2px;
+  }
+  .cars .cardNew .cardcall-link-one {
+    width: 150px;
   }
   .cars .cardNew .cardcall-link p {
     font-size: 10px;
