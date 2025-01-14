@@ -902,6 +902,19 @@ select option {
   background-color: #3563e9;
   gap: 8px;
 }
+.cars .cardNew .cardcall-link-one {
+  width: 250px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #3563e9;
+  gap: 8px;
+}
+.cars .cardNew .cardcall-link-one p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19.2px;
+  font-family: "IBM Plex Sans Arabic";
+}
 .cars .cardNew .cardcall-link p {
   font-size: 12px;
   font-weight: 600;
@@ -916,6 +929,20 @@ select option {
   text-decoration: none;
   gap: 8px;
 }
+.cars .cardNew .cardwhats-link-one {
+  width: 250px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: rgba(96, 214, 105, 0.12);
+  text-decoration: none;
+  gap: 8px;
+}
+.cars .cardNew .cardwhats-link-one p {
+  color: #60d669;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19.2px;
+}
 .cars .cardNew .cardwhats-link p {
   color: #60d669;
   font-size: 12px;
@@ -924,7 +951,7 @@ select option {
 }
 
 .cars .cardNew .carInfo .imgCar {
-  width: auto;
+  width: 250px;
   height: 70px;
   border-radius: 4px;
   display: block;
@@ -981,7 +1008,7 @@ select option {
 .cars .cardNew .carInfo .card-para p {
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 22.5px;
   display: flex;
   align-items: center;
@@ -1115,6 +1142,12 @@ select option {
     .cars .cardNew .cardcall-link {
       width: 87px;
     }
+    .cars .cardNew .cardcall-link-one {
+      width: 170px;
+    }
+    .cars .cardNew .cardwhats-link-one {
+      width: 170px;
+    }
     .cars .cardNew .cardwhats-link {
       width: 87px;
     }
@@ -1192,6 +1225,12 @@ select option {
   .cars .cardNew .cardcall-link {
     width: 70px;
     gap: 2px;
+  }
+  .cars .cardNew .cardcall-link-one {
+    width: 150px;
+  }
+  .cars .cardNew .cardwhats-link-one {
+    width: 150px;
   }
   .cars .cardNew .cardcall-link p {
     font-size: 10px;
