@@ -53,6 +53,9 @@ body {
     height: 386px;
   }
 }
+.swiper-slide a {
+  display: block;
+}
 .card {
   margin: 15px 0 20px;
   width: 380px;
