@@ -47,6 +47,12 @@ body {
     height: 186px;
   }
 }
+@media screen and (min-width: 768px) {
+  .swiper-wrapper .swiper-slide {
+    width: 741px;
+    height: 386px;
+  }
+}
 .card {
   margin: 15px 0 20px;
   width: 380px;
@@ -854,16 +860,16 @@ select option {
   border-radius: 10px;
 }
 
-/* .swiper .swiper-wrapper .swiper-slide img {
-  width: 741px;
-  height: 386px;
-}
-@media (max-width: 800px) {
+/* swiper .swiper-wrapper .swiper-slide img {
+  width: 741px !important;
+  height: 386px !important;
+} */
+/* @media (max-width: 800px) {
   .swiper .swiper-wrapper .swiper-slide img {
     width: 300px;
     height: 186px;
   }
-} */
+}  */
 @media (max-width: 440px) {
   .sliderImgs {
     width: 100%;
