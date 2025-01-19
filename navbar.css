@@ -2,7 +2,7 @@
   display: flex;
   position: fixed;
   top: 0px;
-  background-color: rgba(239, 233, 221, 1);
+  background-color: black !important;
   z-index: 999;
   width: 100%;
   height: 80px;
@@ -164,12 +164,17 @@
 }
 .navbar ul li a {
   font-size: 14px;
-  color: #6c6d6f;
+  color: white;
   text-decoration: none;
   text-align: start;
   font-family: IBM Plex Sans Arabic;
   font-weight: 600;
   transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .navbar ul li a {
+    color: black;
+  }
 }
 .navbar ul li a:hover {
   color: #e5ae08;
@@ -179,6 +184,19 @@
   padding: 4px 8px;
   background: black;
 }
+.ltr-image,
+.rtl-image {
+  display: none;
+}
+
+html[dir="ltr"] .ltr-image {
+  display: block;
+}
+
+html[dir="rtl"] .rtl-image {
+  display: block;
+}
+
 .nav-language {
   display: flex;
   align-items: center;
@@ -191,7 +209,7 @@
 }
 .nav-language p {
   font-size: 16px;
-  color: #6c6d6f;
+  color: white;
   font-family: IBM Plex Sans Arabic;
   font-weight: 600;
 }
